@@ -1,0 +1,11 @@
+step,recommendation
+drop_columns,"employment_status, id, loan_paid_back, marital_status"
+review_columns,None
+drop_duplicate_rows,"train duplicate rows: 0, test duplicate rows: 0"
+numeric_imputation,"annual_income, debt_to_income_ratio, credit_score, loan_amount, interest_rate"
+categorical_imputation,"gender, education_level, loan_purpose, grade_subgrade"
+one_hot_encoding,"loan_purpose, education_level, gender"
+frequency_or_target_encoding,grade_subgrade
+log_transform,"debt_to_income_ratio, annual_income"
+clip_outliers,None
+validation,Use stratified split or stratified k-fold. Keep preprocessing identical for train and test. Handle unseen categories safely.

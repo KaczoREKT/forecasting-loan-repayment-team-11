@@ -1,0 +1,12 @@
+column,feature_type,likely_usefulness,recommended_preprocessing,why
+grade_subgrade,categorical,high,impute Missing + one-hot or frequency encoding,"target_rate_spread=0.353, unique_count=30, shift=stable"
+education_level,categorical,low,impute Missing + one-hot,"target_rate_spread=0.0412, unique_count=5, shift=stable"
+employment_status,categorical,low,review/remove,"target_rate_spread=0.9196, unique_count=5, shift=stable"
+gender,categorical,low,impute Missing + one-hot,"target_rate_spread=0.0064, unique_count=3, shift=stable"
+loan_purpose,categorical,low,impute Missing + one-hot,"target_rate_spread=0.0462, unique_count=8, shift=stable"
+marital_status,categorical,low,review/remove,"target_rate_spread=0.0093, unique_count=4, shift=stable"
+annual_income,numeric,low,median impute + log transform,"abs_target_corr=0.0063, separation_score=0.0158, shift=stable"
+interest_rate,numeric,low,median impute,"abs_target_corr=0.1312, separation_score=0.3272, shift=stable"
+loan_amount,numeric,low,median impute,"abs_target_corr=0.0038, separation_score=0.0094, shift=stable"
+credit_score,numeric,medium,median impute,"abs_target_corr=0.2346, separation_score=0.5851, shift=stable"
+debt_to_income_ratio,numeric,medium,median impute + log transform,"abs_target_corr=0.3357, separation_score=0.8374, shift=stable"

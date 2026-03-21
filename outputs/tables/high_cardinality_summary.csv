@@ -1,0 +1,7 @@
+column,unique_count,unique_ratio,is_high_cardinality
+grade_subgrade,30,0.0001,False
+loan_purpose,8,0.0,False
+employment_status,5,0.0,False
+education_level,5,0.0,False
+marital_status,4,0.0,False
+gender,3,0.0,False

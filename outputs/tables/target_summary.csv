@@ -1,0 +1,5 @@
+metric,value
+majority_class_rate,0.7988
+imbalance_label,heavily imbalanced
+baseline_guess_rate,0.7988
+validation_recommendation,Use stratified split or stratified k-fold

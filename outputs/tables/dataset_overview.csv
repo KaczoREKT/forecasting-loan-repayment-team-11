@@ -1,0 +1,4 @@
+dataset,rows,columns,has_id,has_target
+train,593994,13,True,True
+test,254569,12,True,False
+sample_submission,254569,2,True,True
