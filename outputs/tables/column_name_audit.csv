@@ -1,0 +1,14 @@
+column,has_leading_or_trailing_spaces,has_double_spaces,has_uppercase_letters,has_special_characters,duplicate_column_name
+id,False,False,False,False,False
+annual_income,False,False,False,False,False
+debt_to_income_ratio,False,False,False,False,False
+credit_score,False,False,False,False,False
+loan_amount,False,False,False,False,False
+interest_rate,False,False,False,False,False
+gender,False,False,False,False,False
+marital_status,False,False,False,False,False
+education_level,False,False,False,False,False
+employment_status,False,False,False,False,False
+loan_purpose,False,False,False,False,False
+grade_subgrade,False,False,False,False,False
+loan_paid_back,False,False,False,False,False

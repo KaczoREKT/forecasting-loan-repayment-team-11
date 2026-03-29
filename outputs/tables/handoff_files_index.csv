@@ -1,0 +1,11 @@
+file_type,file_name
+table,data_dictionary.csv
+table,numeric_summary.csv
+table,categorical_summary.csv
+table,train_test_shift_summary.csv
+table,leakage_review.csv
+table,feature_recommendations.csv
+table,preprocessing_plan.csv
+report,EDA_SUMMARY.md
+report,DEVELOPER_BRIEF.md
+report,preprocessing_recommendations.md

@@ -1,0 +1,7 @@
+column,feature_type,missing_rate_gap,train_unique_count,test_unique_count,train_only_category_count,test_only_category_count,train_only_examples,test_only_examples,tvd,shift_label
+grade_subgrade,categorical,0.0,30,30,0,0,,,0.0039,stable
+loan_purpose,categorical,0.0,8,8,0,0,,,0.0017,stable
+gender,categorical,0.0,3,3,0,0,,,0.0012,stable
+marital_status,categorical,0.0,4,4,0,0,,,0.0007,stable
+education_level,categorical,0.0,5,5,0,0,,,0.0007,stable
+employment_status,categorical,0.0,5,5,0,0,,,0.0005,stable

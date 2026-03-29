@@ -1,0 +1,4 @@
+column,why_suspicious,action
+employment_status,Column name suggests post-outcome information | Categorical feature contains near-perfect target groups,review
+loan_paid_back,Column name suggests post-outcome information | Target column itself,remove
+marital_status,Column name suggests post-outcome information,review

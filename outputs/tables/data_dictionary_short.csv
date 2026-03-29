@@ -1,0 +1,14 @@
+column_name,dtype,missing_percent,unique_count,role,type_group,risk_flag,guessed_meaning
+education_level,object,0.0,5,feature,categorical nominal,,Manual review needed
+employment_status,object,0.0,5,feature,categorical nominal,suspicious / leakage risk,Manual review needed
+gender,object,0.0,3,feature,categorical nominal,,Manual review needed
+grade_subgrade,object,0.0,30,feature,categorical nominal,,Manual review needed
+loan_purpose,object,0.0,8,feature,categorical nominal,,Financial amount or loan-related value
+marital_status,object,0.0,4,feature,categorical nominal,suspicious / leakage risk,Manual review needed
+annual_income,float64,0.0,119728,feature,numeric continuous,,Financial amount or loan-related value
+credit_score,int64,0.0,399,feature,numeric continuous,,"Rate, ratio, percentage or score"
+debt_to_income_ratio,float64,0.0,526,feature,numeric continuous,,Financial amount or loan-related value
+interest_rate,float64,0.0,1454,feature,numeric continuous,,Financial amount or loan-related value
+loan_amount,float64,0.0,111570,feature,numeric continuous,,Financial amount or loan-related value
+id,int64,0.0,593994,identifier,identifier,,Identifier
+loan_paid_back,float64,0.0,2,target,target,suspicious / leakage risk,Binary target label

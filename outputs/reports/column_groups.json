@@ -1,0 +1,30 @@
+{
+  "numeric_columns": [
+    "annual_income",
+    "debt_to_income_ratio",
+    "credit_score",
+    "loan_amount",
+    "interest_rate"
+  ],
+  "categorical_columns": [
+    "gender",
+    "marital_status",
+    "education_level",
+    "employment_status",
+    "loan_purpose",
+    "grade_subgrade"
+  ],
+  "other_columns": [
+    "id"
+  ],
+  "id_columns": [
+    "id"
+  ],
+  "target_column": "loan_paid_back",
+  "potential_date_columns": [],
+  "potential_leakage_columns": [
+    "marital_status",
+    "employment_status",
+    "loan_paid_back"
+  ]
+}

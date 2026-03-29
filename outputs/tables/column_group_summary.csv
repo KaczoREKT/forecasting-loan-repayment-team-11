@@ -1,0 +1,8 @@
+group_name,count
+numeric_columns,5
+categorical_columns,6
+other_columns,1
+id_columns,1
+target_column,1
+potential_date_columns,0
+potential_leakage_columns,3

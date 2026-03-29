@@ -1,0 +1,2 @@
+column,suspicious_category_count,example_categories,reason
+employment_status,1,Retired,Category with near-perfect target rate

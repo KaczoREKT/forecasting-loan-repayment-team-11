@@ -1,0 +1,4 @@
+column,leakage_name_flag
+marital_status,True
+employment_status,True
+loan_paid_back,True

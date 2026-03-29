@@ -1,0 +1,14 @@
+column,unique_count_including_na,top_value_ratio,is_constant,is_near_constant_98pct
+loan_paid_back,2,0.7988,False,False
+employment_status,5,0.7587,False,False
+loan_purpose,8,0.5466,False,False
+gender,3,0.5155,False,False
+marital_status,4,0.4863,False,False
+education_level,5,0.4707,False,False
+grade_subgrade,30,0.0988,False,False
+debt_to_income_ratio,526,0.0193,False,False
+credit_score,399,0.011,False,False
+interest_rate,1454,0.0044,False,False
+loan_amount,111570,0.0007,False,False
+annual_income,119728,0.0004,False,False
+id,593994,0.0,False,False
